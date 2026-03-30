@@ -8,10 +8,10 @@ export default function Certifications() {
   return (
     <section id="certifications">
       <div className="container" ref={ref}>
-        <p className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
           <Award size={11} />
           Certifications
-        </p>
+        </h2>
         <ul
           className={`cert-list fade-up ${isVisible ? 'visible' : ''}`}
           style={{ transitionDelay: isVisible ? '80ms' : '0ms' }}

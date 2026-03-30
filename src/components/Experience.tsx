@@ -8,10 +8,10 @@ export default function Experience() {
   return (
     <section id="experience" className="alt">
       <div className="container" ref={ref}>
-        <p className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
           <Briefcase size={11} />
           Experience
-        </p>
+        </h2>
         <div className="timeline">
           {resume.experience.map((job, i) => {
             const side = i % 2 === 0 ? 'right' : 'left'

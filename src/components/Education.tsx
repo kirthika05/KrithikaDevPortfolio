@@ -8,10 +8,10 @@ export default function Education() {
   return (
     <section id="education" className="alt">
       <div className="container" ref={ref}>
-        <p className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
           <GraduationCap size={13} />
           Education
-        </p>
+        </h2>
         <div className="edu-list">
           {resume.education.map((edu, i) => (
             <div

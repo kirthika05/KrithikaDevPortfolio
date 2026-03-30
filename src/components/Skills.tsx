@@ -15,9 +15,9 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container" ref={ref}>
-        <p className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
           Skills
-        </p>
+        </h2>
         <div className="skills-grid">
           {Object.entries(resume.skills).map(([group, tags], i) => {
             const Icon = categoryIcons[group]

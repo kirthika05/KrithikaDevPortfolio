@@ -8,10 +8,10 @@ export default function Contact() {
   return (
     <section id="contact" className="alt">
       <div className="container" ref={ref}>
-        <p className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
+        <h2 className={`section-label fade-up ${isVisible ? 'visible' : ''}`}>
           <MessageSquare size={11} />
           Contact
-        </p>
+        </h2>
         <div
           className={`contact-body fade-up ${isVisible ? 'visible' : ''}`}
           style={{ transitionDelay: isVisible ? '80ms' : '0ms' }}
